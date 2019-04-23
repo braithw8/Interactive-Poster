@@ -37,4 +37,4 @@ A | B | C | D | E
 
 This concatenates into `$("#Title_Title").click(function() {sound.pause();sound.setAttribute('src', 'aac/Title_Title.aac');sound.play();});`
 
-The spreadsheet used to create the code is available [here](https://docs.google.com/spreadsheets/d/1lC8hsgBdGXd4YCx4ujEXdwN8Nb8D9jy-Y_YoU23IvEA/edit?usp=sharing).
+The spreadsheet used to create the code is available [here](https://docs.google.com/spreadsheets/d/1lC8hsgBdGXd4YCx4ujEXdwN8Nb8D9jy-Y_YoU23IvEA/edit?usp=sharing). In addition to creating the code that runs the poster, the spreadsheet is was also the developmental nexus, where elements were created and assigned Illustrator layer and audio file names. Progress on both element type completion is tracked with check boxes in the spreadsheet.

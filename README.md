@@ -37,3 +37,4 @@ A | B | C | D | E
 
 This concatenates into `$("#Title_Title").click(function() {sound.pause();sound.setAttribute('src', 'aac/Title_Title.aac');sound.play();});`
 
+The spreadsheet used to create the code is available [here](https://docs.google.com/spreadsheets/d/1lC8hsgBdGXd4YCx4ujEXdwN8Nb8D9jy-Y_YoU23IvEA/edit?usp=sharing)

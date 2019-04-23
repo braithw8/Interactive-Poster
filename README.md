@@ -26,7 +26,7 @@ This code is relatively straightforward, the trick becomes coordinating a rather
 
 A | B | C | D
 --- | --- | --- | ---
-Hello | Marcus | Gordon | ARRAYFORMULA(CONCATENATE(A1:C1))
+Hello | Marcus | Gordon | `ARRAYFORMULA(CONCATENATE(A1:C1))`
 Hello | Marcus | Gordon | HelloMarcusGordon
 
 This allows simple function of spreadsheets allows for mass construction of code through concatenation of alternating colums of common code and unique element identifiers as below:

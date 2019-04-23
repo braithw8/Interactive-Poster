@@ -33,7 +33,7 @@ This allows simple function of spreadsheets allows for mass construction of code
 
 A | B | C | D | E
 --- | --- | --- | --- | ---
-`$("#` | Title_Title | `").click(function() {sound.pause();sound.setAttribute('src', 'aac/` | Title_Title | `.wav');sound.play();});`
+`$("#` | Title_Title | `").click(function() {sound.pause();sound.setAttribute('src', 'aac/` | Title_Title | `.aac');sound.play();});`
 
 This concatenates into `$("#Title_Title").click(function() {sound.pause();sound.setAttribute('src', 'aac/Title_Title.wav');sound.play();});`
 

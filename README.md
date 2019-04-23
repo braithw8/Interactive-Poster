@@ -1,4 +1,10 @@
 # Interactive-Poster
+
+
+http://webspace.ocad.ca/~3164558/site3/
+
+![alt text](https://webspace.ocad.ca/~3164558/site3/Poster.png "Logo Title Text 1")
+
 ## Introduction
 This project is an interactive poster for my thesis, 2020 Sound. 2020 Sound is a virual prototype for a positional tracking microphone system.
 ## Making the Poster

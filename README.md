@@ -17,9 +17,16 @@ $("#Title_Title").click(function() {
   sound.play();
   });
 ```
-This code is relatively straightforward, the trick becomes coordinating a rather long list of interactive elements, their Illustrator layer names, and matching recorded audio files of the narration. Spreasheets to the rescue! Since each elements code is mostly common with the only differences lying in the element ID and the audio file, a spreadsheet could be used to concatenate common and unique elements into functional code. Concatenation in a spreadsheet essentially allows you to combine strings to generate a newer, longer, combined string. Take the following example.
+This code is relatively straightforward, the trick becomes coordinating a rather long list of interactive elements, their Illustrator layer names, and matching recorded audio files of the narration. Spreasheets to the rescue! Since each elements code is mostly common with the only differences lying in the element ID and the audio file, a spreadsheet could be used to concatenate common and unique elements into functional code. Concatenation in a spreadsheet essentially allows you to combine strings to generate a newer, longer, combined string. Take the following example:
 
 No. | A | B | C | D
 --- | --- | --- | --- | ---
 1 | Hello | Marcus | Gordon | ARRAYFORMULA(CONCATENATE(A1:C1))
 2 | Hello | Marcus | Gordon | HelloMarcusGordon
+
+This allows simple function of spreadsheets allows for mass construction of code through concatenation of alternating colums of common code and unique element identifiers as below:
+
+No. | A | B | C | D | E
+--- | --- | --- | --- | --- | ---
+1 | `$("#` | Title_Title | `").click(function() {sound.pause();sound.setAttribute('src', 'aac/` | Title_Title | `.wav');sound.play();});`
+

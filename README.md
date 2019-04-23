@@ -35,5 +35,5 @@ A | B | C | D | E
 --- | --- | --- | --- | ---
 `$("#` | Title_Title | `").click(function() {sound.pause();sound.setAttribute('src', 'aac/` | Title_Title | `.wav');sound.play();});`
 
-This concatenates into `$("#Title_Title").click(function() {sound.pause();sound.setAttribute('src', 'aac/Title_Title.wav');sound.play();});
+This concatenates into `$("#Title_Title").click(function() {sound.pause();sound.setAttribute('src', 'aac/Title_Title.wav');sound.play();});`
 

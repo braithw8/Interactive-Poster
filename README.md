@@ -50,6 +50,6 @@ The poster worked well as an exhibition of my project. The irony is that I was i
 
 I plan to continue developing the interactive poster as a presentation platform. I would like to develop more deep-content, making more individual elements of the poster interactive rather. Currently, the interactions are largely section-based, but it would be effective to make some very small details interactive.
 
-Moving beyond vector graphics, future iterations will include animated diagrams. This would really add an extra dimension to the presentation, enhancing the potential of many of the currently static diagrams.
+Moving beyond vector graphics, future iterations will include animated diagrams. This would really add an extra dimension to the presentation, enhancing the potential of many of the currently static diagrams. I've had success creating animated vectors using Adobe After Effect and translating them to the web using Bodymovin' and Lottie.
 
 Another small detail would be creating a roll-over state for interactive elements. This was part of an early iteration of the poster. However, with the scope of the current build time did not allow for this interaction. It is my plan to ressurect this for future builds once I streamline its inclusion in the build. 
